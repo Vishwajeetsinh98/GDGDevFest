@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#232240">
+    <style>
+        .badge{
+            text-align: center;background:rgb(239,150,12); color: #ffffff; font-weight: 700; padding: 10px;
+        }
+
+        .custom-right-border{
+            border-right: 1px solid rgb(239,150,12); margin-right: 10px;
+        }
+
+        .date{
+            font-size: 48px; color: #ffffff; font-weight: 700; top: 0;
+        }
+        .month{
+            font-size: 12px;
+        }
+        .year{
+            font-size: 26px;
+        }
+
+        .where-content{
+            font-size: 20px; padding: 0;
+        }
+
+        .contact{
+            border-top:1px solid rgb(239,150,12); padding-top: 60px;
+        }
+
+        .custom-padding{
+            left: 20px;
+        }
+
+        .terms{
+            padding: 20px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="row register">
+        <h1 class="center heading">Devfest '16</h1>
+        <div class="row">
+        <div class="col m6 push-m3">
+        </div>
+            <div class="container">
+            <div class="row">
+                <div class="col s6  custom-right-border">
+                    <div class="col s3 offset-s8 badge">
+                    When?
+                    </div>
+                    <div class="col s6 offset-s6">
+                    <div class="col s3 offset-s3 date">21</div> <div class="col s6 white-text"><span class="month">October</span> <span class="year">2016</span></div>
+                    </div>
+                </div>
+                <div class="col s5 custom-padding">
+                    <div class="col s3 badge">
+                    Where?
+                    </div><div class="col s9 offset-s3"></div>
+                    <div class="col s6 white-text where-content">
+                    Anna Auditorium,<br>
+                    VIT Vellore
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row contact white-text">
+        <div class="col m6">
+            <input type="text" placeholder="Full Name" class="col s12">
+            <input type="text" placeholder="Register Number" class="col s12">
+            <input type="text" placeholder="Contact No" class="col s12">
+            <input type="text" placeholder="Email" class="col s12">
+        </div>
+        <div class="col m6 terms">
+            <p>The timings of the event may be altered with or without prior information. The prices will be distributed in the end along with other goodies.</p>
+            <p>Terms and Conditions</p>
+        </div>
+    </div></div>
+</div>
+</body>
+</html>
