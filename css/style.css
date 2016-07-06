@@ -570,3 +570,24 @@ table {
   background: rgb(246,154,9)!important;
   color: white!important;
 }
+
+
+/*Past Events Page Styles*/
+.past-events-header{
+  color: rgb(246,154,9);
+  font-weight: 300;
+  text-align: center;
+}
+.past-events-events{
+  margin-left: 8%!important;
+}
+.past-events-events .event{
+  border: 2px solid white;
+  background: rgb(215,215,215);
+}
+.past-events-events .event h5{
+  color: rgb(246,154,9);
+}
+.past-events-events .event p{
+  font-size: 15px;
+}
