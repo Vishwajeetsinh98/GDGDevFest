@@ -521,3 +521,52 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*Footer Page Styles*/
+.footer{
+  width: 100%;
+  padding: 5%;
+}
+.footer-first{
+  border-right: 5px solid rgb(246,154,9);
+  width: 50%;
+  height: 10vw;
+}
+.footer-second{
+  width: 50%;
+  padding-left: 3%!important;
+}
+.footer-second h5{
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+.footer-email{
+  margin-top: 5%!important;
+  width: 50%!important;
+  font-size: 13px!important;
+}
+.footer-email input{
+  color: white!important;
+  font-weight: 300!important;
+}
+.footer-second .submit-button{
+  position: relative;
+  top: -4vw;
+  left: 22vw;
+}
+.submit-button{
+  background: rgb(246,154,9);
+  color: white;
+  border: none;
+  padding: 1.5%;
+}
+.submit-button:active{
+  background: rgb(246,154,9)!important;
+  color: white!important;
+}
+.submit-button:focus{
+  background: rgb(246,154,9)!important;
+  color: white!important;
+}
