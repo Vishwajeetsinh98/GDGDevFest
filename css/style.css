@@ -682,3 +682,23 @@ table {
   margin: auto;
   padding: 5%;
 }
+
+/*Header Page Styles*/
+.header-image{
+  margin-top: 10%;
+  margin-left: 18%;
+}
+.header-button{
+  margin-top: 5%;
+  margin-left: 48%;
+  padding: 1%;
+  color: rgb(23,22,40)!important;
+  font-weight: 700;
+  min-width: 120px;
+}
+.header-button:active{
+  color: rgb(23,22,40)!important;
+}
+.header-button:focus{
+  color: rgb(23,22,40)!important;
+}
