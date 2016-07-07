@@ -591,3 +591,94 @@ table {
 .past-events-events .event p{
   font-size: 15px;
 }
+
+
+/*Info Page Styles*/
+.info-header h3{
+  text-align: center;
+  color: rgb(246,154,9);
+  font-weight: 300;
+}
+.info-place{
+  margin-left: 5%!important;
+  margin-right: 5%!important;
+  border-bottom: 2px solid rgb(246,154,9);
+  padding: 3%;
+  color: white;
+}
+.info-date{
+  border-right: 2px solid rgb(246,154,9);
+}
+.info-date img{
+  position: relative;
+  left: 60%;
+}
+.info-date-header{
+  background: rgb(246,154,9);
+  color: white;
+  width: 10%;
+  padding: 1%;
+  font-size: 18px;
+  min-width: 68px;
+}
+.info-date-header{
+  display: inline;
+  position: relative;
+  left: 60%;
+  top: -25px;
+}
+.info-date-date{
+  font-weight: 700;
+  font-size: 50px!important;
+  position: relative;
+  left: 60%;
+}
+.info-date-month{
+  position: relative;
+  left: 72%;
+  top: -45px;
+}
+.info-date-year{
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  left: 72%;
+  top: -45px;
+}
+.info-venue{
+  padding-left: 2%!important;
+}
+.info-venue-header{
+  background: rgb(246,154,9);
+  color: white;
+  width: 10%;
+  padding: 1%;
+  font-size: 18px;
+  min-width: 68px;
+}
+.info-venue-location{
+  font-weight: 400;
+  font-size: 22px;
+}
+.info-venue-header{
+  display: inline;
+  position: relative;
+  top: -25px;
+}
+.info-venue-location{
+  position: relative;
+  left: 12%;
+}
+
+.info-data{
+  margin: auto;
+  padding: 5%;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  width: 80%;
+}
+.info-icons{
+  margin: auto;
+  padding: 5%;
+}
