@@ -1,0 +1,11 @@
+@media only screen and (max-device-width: 600px){
+    .header-image{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .header-button{
+        margin-left: 43%;
+        font-size: 30px;
+        padding: 2%;
+    }
+}

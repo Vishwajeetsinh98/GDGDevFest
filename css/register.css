@@ -1,0 +1,56 @@
+.badge{
+    text-align: center;background:rgb(239,150,12); color: #ffffff; font-weight: 700; padding: 10px !important;
+}
+@media (min-width: 640px) {
+
+
+    .custom-right-border{
+        border-right: 1px solid rgb(239,150,12); margin-right: 10px;
+    }
+}
+.date{
+    font-size: 58px; color: #ffffff; font-weight: 700; top: 0;
+}
+
+.month-and-date{
+    position: relative;
+}
+.month{
+    font-size: 18px; position: absolute; top: 15px; left: 30px;
+}
+.year{
+    font-size: 30px; position: absolute; top: 30px; left: 30px;
+}
+@media (max-width: 640px) {
+    .month{
+        left: -10px;
+    }
+    .year{
+        left: -10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width:1000px) {
+    .month{
+        font-size: 15px; position: absolute; top: 15px; left: 25px;
+    }
+    .year{
+        font-size: 28px; position: absolute; top: 30px; left: 25px;
+    }
+}
+
+.where-content{
+    font-size: 20px; padding: 0; top:15px;
+}
+
+.contact{
+    border-top:1px solid rgb(239,150,12); padding-top: 60px;
+}
+
+.custom-padding{
+    left: 20px;
+}
+
+.terms{
+    padding: 20px !important;
+}
