@@ -1,8 +1,30 @@
 body{
-    background: rgb(23,22,40);
-    padding: 20px;
-    font-family: Roboto;
+    /*background: rgb(23,22,40);*/
+    background: #ffffff;
 }
 .heading{
-    color:rgb(239,150,12); font-weight: 100;
+    color:rgb(239,150,12); font-weight: 100; padding-top: 150px; padding-bottom: 100px;
+}
+.row{
+    position:relative;
+}
+
+.header{
+    background: rgb(23,22,40); margin: 0 !important;position: relative; top:0; padding: 50px;
+}
+
+.register{
+    background: rgb(23,22,40); margin: 0 !important;position: relative; top:-35px;
+}
+
+.speakers{
+    background: rgb(23,22,40); margin: 0 !important;position: relative; top:-35px;
+}
+
+.past-events{
+    background: #ffffff; margin: 0 !important;
+}
+
+.footer-content{
+    margin: auto; padding: 20px;
 }

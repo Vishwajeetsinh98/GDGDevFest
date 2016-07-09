@@ -9,3 +9,11 @@
         padding: 2%;
     }
 }
+
+.custom-yellow-background{
+    background:rgb(239,150,12); margin: 50px; font-weight: bold;
+}
+
+.custom-yellow-background:hover{
+    background: rgba(239,150,12,0.8);
+}

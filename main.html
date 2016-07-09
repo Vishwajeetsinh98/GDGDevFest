@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Speakers</title>
+    <title>GDG Devfest '16</title>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/Materialize/dist/js/materialize.min.js"></script>
     <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
@@ -14,13 +14,22 @@
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/register.css">
-
+    <link rel="stylesheet" href="css/pastevents.css">
+    <link rel="stylesheet" href="css/sponsor.css">
     <meta name="theme-color" content="#232240">
 
+    <link rel="icon" href="images/gdg.png">
 </head>
 
 <body>
-
+<!--Header-->
+<div class="header">
+    <div class="header-image">
+    <img src="images/IMG-20160615-WA0004.jpg" style="width: 80%">
+    </div>
+    <div class="center"><button class="btn custom-yellow-background white-text">Register</button> </div>
+    </div>
+<!--End of header-->
 
 <!--Registration-->
 <div class="row register">
@@ -66,4 +75,112 @@
 </div>
 <!--End of Registration-->
 
+<!--Speakers-->
+<div class="row speakers">
+    <h1 class="center heading">Speakers</h1>
+    <div class="col m3">
+
+    </div>
+    <div class="col m4 speaker center">
+        <img src="images/speaker.jpeg" class="rounded"><br>
+        Sundar Pichai<br>
+        CEO, Google
+    </div>
+    <div class="col m4 speaker center">
+        <img src="images/speaker.jpeg" class="rounded"><br>
+        Sundar Pichai<br>
+        CEO, Google
+    </div>
+    <div class="col m4 speaker center">
+        <img src="images/speaker.jpeg" class="rounded"><br>
+        Sundar Pichai<br>
+        CEO, Google
+    </div>
+</div>
+
+<!--End of speakers-->
+
+<!--Past events-->
+<div class="past-events">
+<div class="past-events-header row">
+    <h1 class="center heading">What went down in 2015?</h1>
+</div>
+<div class="past-events-events row">
+    <div class="col s12 m4 l4 event" style="min-height: 400px">
+        <h5>Event Header</h5>
+        <p>Event Description</p>
+    </div>
+    <div class="col s12 m4 l4" style="margin-left: -0.8%!important;">
+        <div class="row">
+            <div class="col s12 m6 l6 event" style="min-height: 150px">
+                <h5>Event Header</h5>
+                <p>Event Description</p>
+            </div>
+            <div class="col s12 m6 l6 event" style="min-height: 150px;">
+                <h5>Event Header</h5>
+                <p>Event Description</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: -10%!important">
+            <div class="col s12 m12 l12 event" style="min-height: 250px;">
+                <h5>Event Header</h5>
+                <p>Event Description</p>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3 l3" style="margin-left: -1.7%;">
+        <div class="row">
+            <div class="col s12 m12 l12 event" style="min-height: 300px;">
+                <h5>Event Header</h5>
+                <p>Event Description</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: -10%!important">
+            <div class="col s12 m12 l12 event" style="min-height: 100px;">
+                <h5>Event Header</h5>
+                <p>Event Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div><!--End of Past events-->
+<!--Sponsors-->
+<div class="row sponsors">
+<h1 class="heading center">Sponsors</h1>
+<div class="container">
+    <div class="row col s12">
+        <div class="col m6 s6 l6 sponsor center yellow">Idea Cellular</div>
+        <div class="col m6 s6 l6 sponsor center blue">Google Inc.</div>
+        <div class="col m3 s3 l3 sponsor center red">The Smaller Sponsor</div>
+        <div class="col m3 s3 l3 sponsor center brown">The Smaller Sponsor</div>
+        <div class="col m3 s3 l3 sponsor center purple">The Smaller Sponsor</div>
+        <div class="col m3 s3 l3 sponsor center black white-text">The Smaller Sponsor</div>
+
+        <div class="col m2 s2 l2 sponsor center blue">Even Smaller Sponsors</div>
+        <div class="col m2 s2 l2 sponsor center orange">Even Smaller Sponsors</div>
+        <div class="col m2 s2 l2 sponsor center grey">Even Smaller Sponsors</div>
+        <div class="col m2 s2 l2 sponsor center light-green">Even Smaller Sponsors</div>
+        <div class="col m2 s2 l2 sponsor center deep-purple">Even Smaller Sponsors</div>
+        <div class="col m2 s2 l2 sponsor center blue-grey">Even Smaller Sponsors</div>
+    </div>
+</div>
+</div>
+<!--End of sponsors-->
+<!--Footer-->
+<div class="footer row">
+    <div class="container">
+        <div class="footer-first col s12 m6 l6 ">
+        <div class="footer-content">Stay in the loop. Be the first to know when we make a move!</div>
+    </div>
+    <div class="footer-second col s12 m6 l6">
+        <h5>Are you ready to witness the awesomeness?</h5>
+        <div class="input-field footer-email">
+            <input name="email" id="email" type="email" class="s12 active" placeholder="Enter your Email address">
+
+        </div>
+        <button class="submit-button">Notify Me</button>
+    </div>
+    </div>
+</div>
+<!--End of Footer-->
 </body>
