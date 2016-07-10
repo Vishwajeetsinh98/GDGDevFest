@@ -1,10 +1,10 @@
 @media only screen and (max-device-width: 600px) {
     .footer-second{
-        padding-left: 2%!important;
-        width: 60%!important;
+
+
     }
     .footer-first{
-        width: 40%!important;
+
     }
     .footer-second h5{
         font-size: 25px;
@@ -14,11 +14,6 @@
         font-size: 25px!important;
     }
     .footer-second .submit-button{
-        top: -6vw;
-        min-width: 10vw;
-        padding: 2%;
-        font-size: 20px;
-        font-weight: 300;
-        left: 28vw;
+
     }
 }

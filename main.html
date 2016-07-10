@@ -27,12 +27,12 @@
     <div class="header-image">
     <img src="images/IMG-20160615-WA0004.jpg" style="width: 80%">
     </div>
-    <div class="center"><button class="btn custom-yellow-background white-text">Register</button> </div>
+    <div class="center"><a href="#register_form" class="btn custom-yellow-background white-text">Register</a> </div>
     </div>
 <!--End of header-->
 
 <!--Registration-->
-<div class="row register">
+<div class="row register" >
     <h1 class="center heading">Devfest '16</h1>
     <div class="row">
         <div class="col m6 push-m3">
@@ -59,22 +59,57 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="register_form">
         <div class="row contact white-text">
             <div class="col m6">
-                <input type="text" placeholder="Full Name" class="col s12">
-                <input type="text" placeholder="Register Number" class="col s12">
-                <input type="text" placeholder="Contact No" class="col s12">
-                <input type="text" placeholder="Email" class="col s12">
+                <div class="input-field col s12">
+                    <input id="full_name" type="text" class="validate" name="first_name">
+                    <label class="active" for="full_name">Full Name</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="reg_no" type="text" class="validate" name="reg_no">
+                    <label class="active" for="reg_no">Register Number</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="contact_no" type="text" class="validate" name="contact_no">
+                    <label class="active" for="contact_no">Contact Number</label>
+                </div>
+                <div class="input-field col s12">
+                    <input type="text" id="email" class="validate" name="email">
+                    <label class="active" for="email">Email</label>
+                </div>
+
             </div>
             <div class="col m6 terms">
                 <p>The timings of the event may be altered with or without prior information. The prices will be distributed in the end along with other goodies.</p>
-                <p>Terms and Conditions</p>
+                <b>Terms and Conditions</b>
             </div>
         </div></div>
 </div>
 <!--End of Registration-->
+<!--Info-->
 
+<div class="info-icons row">
+    <div class="container">
+    <div class="col s12 m3 l3 center">
+        <img src="images/collaboration-512.png" style="width: 25%">
+        <p style="color: white">8 Speakers</p>
+    </div>
+    <div class="col s12 m3 l3 center">
+        <img src="images/timeline-512.png" style="width: 25%">
+        <p style="color: white">12 Events</p>
+    </div>
+    <div class="col s12 m3 l3 center">
+        <img src="images/sales_performance-512.png" style="width: 25%">
+        <p style="color: white">Prices Worth 10k</p>
+    </div>
+    <div class="col s12 m3 l3 center">
+        <img src="images/address_book-512.png" style="width: 25%">
+        <p style="color: white">12 Events</p>
+    </div>
+    </div>
+</div>
+<!--End of Info-->
 <!--Speakers-->
 <div class="row speakers">
     <h1 class="center heading">Speakers</h1>
@@ -149,19 +184,19 @@
 <h1 class="heading center">Sponsors</h1>
 <div class="container">
     <div class="row col s12">
-        <div class="col m6 s6 l6 sponsor center yellow">Idea Cellular</div>
-        <div class="col m6 s6 l6 sponsor center blue">Google Inc.</div>
-        <div class="col m3 s3 l3 sponsor center red">The Smaller Sponsor</div>
-        <div class="col m3 s3 l3 sponsor center brown">The Smaller Sponsor</div>
-        <div class="col m3 s3 l3 sponsor center purple">The Smaller Sponsor</div>
-        <div class="col m3 s3 l3 sponsor center black white-text">The Smaller Sponsor</div>
+        <div class="col m6 s12 l6 sponsor center "><img src="images/product_logo_256.png"><br>Idea Cellular</div>
+        <div class="col m6 s12 l6 sponsor center "><img src="images/product_logo_256.png"><br>Google Inc.</div>
+        <div class="col m3 s6 l3 sponsor center "><img src="images/gdm-foot-logo.png"><br>The Smaller Sponsor</div>
+        <div class="col m3 s6 l3 sponsor center "><img src="images/product_logo_128.png"><br>The Smaller Sponsor</div>
+        <div class="col m3 s6 l3 sponsor center "><img src="images/product_logo_128.png"><br>The Smaller Sponsor</div>
+        <div class="col m3 s6 l3 sponsor center "><img src="images/gdm-foot-logo.png"><br>The Smaller Sponsor</div>
 
-        <div class="col m2 s2 l2 sponsor center blue">Even Smaller Sponsors</div>
-        <div class="col m2 s2 l2 sponsor center orange">Even Smaller Sponsors</div>
-        <div class="col m2 s2 l2 sponsor center grey">Even Smaller Sponsors</div>
-        <div class="col m2 s2 l2 sponsor center light-green">Even Smaller Sponsors</div>
-        <div class="col m2 s2 l2 sponsor center deep-purple">Even Smaller Sponsors</div>
-        <div class="col m2 s2 l2 sponsor center blue-grey">Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/debian-logo.png"><br>Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/Ubuntu.png"><br>Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/debian-logo.png"><br>Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/Ubuntu.png"><br>Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/debian-logo.png"><br>Even Smaller Sponsors</div>
+        <div class="col m2 s4 l2 sponsor center"><img src="images/Ubuntu.png"><br>Even Smaller Sponsors</div>
     </div>
 </div>
 </div>
@@ -172,13 +207,17 @@
         <div class="footer-first col s12 m6 l6 ">
         <div class="footer-content">Stay in the loop. Be the first to know when we make a move!</div>
     </div>
-    <div class="footer-second col s12 m6 l6">
-        <h5>Are you ready to witness the awesomeness?</h5>
-        <div class="input-field footer-email">
-            <input name="email" id="email" type="email" class="s12 active" placeholder="Enter your Email address">
-
+    <div class="footer-second col s12 m6 l6 black-text">
+        <h5 class="black-text">Are you ready to witness the awesomeness?</h5>
+        <div class="row">
+        <div class="input-field footer-email col m8 s12">
+            <input name="email_newsletter" id="email_newsletter" type="email" class="col s12">
+            <label for="email_newsletter">Email</label>
         </div>
-        <button class="submit-button">Notify Me</button>
+        <div class="input-field col m4 s12">
+            <button class="submit-button col s12">Notify Me</button>
+        </div>
+        </div>
     </div>
     </div>
 </div>

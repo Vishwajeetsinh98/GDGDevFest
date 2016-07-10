@@ -1,3 +1,9 @@
 .sponsor{
-    padding: 10px !important;
+    padding: 10px !important; font-weight: 700; color: #000;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.sponsor img{
+    width: 50%;
+    padding-bottom: 15px;
 }

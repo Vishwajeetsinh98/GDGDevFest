@@ -3,7 +3,7 @@ body{
     background: #ffffff;
 }
 .heading{
-    color:rgb(239,150,12); font-weight: 100; padding-top: 150px; padding-bottom: 100px;
+    color:rgb(239,150,12); font-weight: 100; padding-top: 150px; padding-bottom: 100px; text-shadow:6px #000;
 }
 .row{
     position:relative;
@@ -21,10 +21,57 @@ body{
     background: rgb(23,22,40); margin: 0 !important;position: relative; top:-35px;
 }
 
+.info-icons{
+    background: rgb(23,22,40); position: relative; top: -35px; padding-top: 200px;
+}
+
 .past-events{
     background: #ffffff; margin: 0 !important;
 }
 
 .footer-content{
     margin: auto; padding: 20px;
+}
+
+/* label color */
+.input-field label {
+    color: #f0f0f0;
+}
+ 
+.input-field input[type=email]+label{
+    color: #a1a1a1;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: rgb(239,150,12);
+}
+.input-field input[type=email]:focus + label {
+    color: rgb(239,150,12);
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(239,150,12);
+    box-shadow: 0 1px 0 0 rgb(239,150,12);
+}
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid rgb(239,150,12);
+    box-shadow: 0 1px 0 0 rgb(239,150,12);
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(239,150,12);
+    box-shadow: 0 1px 0 0 rgb(239,150,12);
+}
+.input-field input[type=email].valid {
+    border-bottom: 1px solid rgb(239,150,12);
+    box-shadow: 0 1px 0 0 rgb(239,150,12);
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid rgb(239,150,12);
+    box-shadow: 0 1px 0 0 rgb(239,150,12);
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: rgb(239,150,12);
 }
