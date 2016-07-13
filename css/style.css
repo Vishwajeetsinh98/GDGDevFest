@@ -675,8 +675,8 @@ table {
 
 /*Header Page Styles*/
 .header-image{
-  margin-top: 10%;
-  margin-left: 18%;
+  margin-top: 0;
+  margin-left: 0;
 }
 .header-button{
   margin-top: 5%;
