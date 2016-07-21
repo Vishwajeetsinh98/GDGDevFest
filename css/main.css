@@ -21,6 +21,10 @@ body{
     background: rgb(23,22,40); margin: 0 !important;position: relative; top:-35px;
 }
 
+.agenda{
+    background: rgb(23,22,40); margin: 0 !important;position: relative; top:-140px; padding: 10px;
+}
+
 .info-icons{
     background: rgb(23,22,40); position: relative; top: -35px; padding-top: 200px;
 }
@@ -74,4 +78,7 @@ body{
 /* icon prefix focus color */
 .input-field .prefix.active {
     color: rgb(239,150,12);
+}
+.timeline-link{
+    font-size: 12px;
 }
