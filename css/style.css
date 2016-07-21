@@ -475,6 +475,32 @@
   }
 }
 
+@media only screen and (min-device-width: 300px) and (max-device-width: 400px){
+  .info-icons{
+    margin-top: -8vh!important;
+    background: transparent;
+  }
+  .footer-first{
+    border: none!important;
+    margin-left: -3%;
+  }
+  .footer-second{
+    margin-left: 6%!important;
+    margin-top: 6%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+  .register .date{
+    position: relative!important;
+    left: -15px!important;
+  }
+  .register .month-and-date{
+    position: relative!important;
+    left: -5px;
+  }
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
