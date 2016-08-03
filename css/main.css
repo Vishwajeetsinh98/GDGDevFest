@@ -96,6 +96,7 @@ body{
 
 .footer-content{
     margin-top: 20px;
+    color: #fff;
 }
 
 footer{
@@ -103,5 +104,10 @@ footer{
 }
 footer a{
     color: #fff;
+    border-bottom: 0.5px solid #fff; transition: all 0.5s;
+}
+
+footer a:hover{
+    border-bottom: 2px solid rgb(23,22,40); transition: all 0.1s;
 }
 
