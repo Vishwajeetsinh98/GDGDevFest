@@ -16,7 +16,7 @@ body{
 }
 
 .register-button{
-    position: absolute; bottom:150px; left: 0; right: 0; margin: auto;
+    position: absolute; bottom:150px; left: 0; right: 0; margin: auto; z-index: 1;
 }
 
 .register{
