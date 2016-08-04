@@ -111,3 +111,14 @@ footer a:hover{
     border-bottom: 2px solid rgb(23,22,40); transition: all 0.1s;
 }
 
+.social-icons{
+    color: rgb(23,22,40); word-spacing: 30px; font-size: 24px; 
+}
+
+.social-icons i{
+    transition: all 0.5s;
+}
+
+.social-icons i:hover{
+    color: #fff; cursor: pointer; transition: all 0.5s;
+}
