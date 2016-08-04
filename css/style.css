@@ -63,10 +63,15 @@
   margin-top: 3%;
   padding-bottom: 0%;
 }
+@media(max-width: 600px){
+  .agenda-item-data{
+    font-size: 5px;
+  }
+}
 .agenda-item-data p:nth-child(1){
   color: white!important;
   background: rgb(23,22,40)!important;
-  font-size: 18px!important;
+  font-size: 18px;
   width: 40%!important;
   padding: 5px!important;
   margin-top: 1px!important;
@@ -379,7 +384,7 @@
   content: '- ';
 }
 .cd-horizontal-timeline .events-content p {
-  font-size: 1.4rem;
+  font-size: 15px;
   color: #959595;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
