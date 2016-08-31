@@ -132,3 +132,8 @@ footer a:hover{
 		max-width: 74%!important;
 	}
 }
+
+.custom-m4{
+    min-width: 29%;
+    max-width: 29%;
+}
