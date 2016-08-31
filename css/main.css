@@ -112,13 +112,23 @@ footer a:hover{
 }
 
 .social-icons{
-    color: rgb(23,22,40); word-spacing: 30px; font-size: 24px; 
+    color: white; word-spacing: 30px; font-size: 24px; 
 }
 
 .social-icons i{
-    transition: all 0.5s; color: rgb(23,22,40);
+    transition: all 0.5s; color: white;
 }
 
-.social-icons i:hover{
-    color: #fff; cursor: pointer; transition: all 0.5s;
+.social-icons i:hover{cursor: pointer; transition: all 0.5s;opacity: 0.5;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 600px){
+	.event{
+		min-width: 80%!important;
+		max-width: 80%!important;
+	}
+	.event-1{
+		min-width: 74%!important;
+		max-width: 74%!important;
+	}
 }
