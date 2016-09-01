@@ -137,3 +137,11 @@ footer a:hover{
     min-width: 29%;
     max-width: 29%;
 }
+
+nav{
+    position: absolute; top: 0; left: 0; width: 100%; z-index: 1; box-shadow: 0 0 0 0 !important;
+}
+
+.brand-logo img{
+    width: 20%; margin-left: 10%;
+}
