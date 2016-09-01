@@ -145,3 +145,9 @@ nav{
 .brand-logo img{
     width: 20%; margin-left: 10%;
 }
+
+@media(max-width: 600px){
+    .brand-logo img{
+        width: 100%; margin: auto;
+    }
+}
