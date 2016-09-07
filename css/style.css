@@ -66,6 +66,7 @@
 @media(max-width: 600px){
   .agenda-item-data{
     font-size: 5px;
+    width: 100%;
   }
 }
 .agenda-item-data p:nth-child(1){
