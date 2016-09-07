@@ -109,7 +109,7 @@ footer a{
 }
 
 footer a:hover{
-    border-bottom: 2px solid rgb(23,22,40); transition: all 0.1s;
+    border-bottom: 2px solid #fff; transition: all 0.02s;
 }
 
 .social-icons{
