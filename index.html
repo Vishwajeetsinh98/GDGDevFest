@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="css/pastevents.css">
     <link rel="stylesheet" href="css/sponsor.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <meta name="theme-color" content="#232240">
     <link rel="icon" href="images/gdg.png">
     <style>
@@ -43,7 +44,7 @@
 <!--Header-->
 <div class="header">
     <div  class="header-image" id="particles-js">
-      <img src="images/IMG-20160615-WA0004_edt.png" style="width: 80%">
+      <img src="images/new.png" style="width: 80%">
     </div>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
@@ -82,7 +83,7 @@
     <div class="container" id="register_form">
         <div class="row contact white-text">
             <div class="col m6">
-                <div class="input-field col s12">
+                <!-- <div class="input-field col s12">
                     <input id="full_name" type="text" class="validate" name="first_name">
                     <label class="active" for="full_name">Full Name</label>
                 </div>
@@ -93,7 +94,7 @@
                 <div class="input-field col s12">
                     <input id="contact_no" type="text" class="validate" name="contact_no">
                     <label class="active" for="contact_no">Contact Number</label>
-                </div>
+                </div> -->
                 <div class="input-field col s12">
                     <input type="text" id="email" class="validate" name="email">
                     <label class="active" for="email">Email</label>
@@ -111,21 +112,17 @@
 
 <div class="info-icons row">
     <div class="container">
-    <div class="col s12 m3 l3 center">
+    <div class="col s12 m4 l4 center">
         <img src="images/collaboration-512.png" style="width: 50%">
-        <p style="color: white">5 Speakers</p>
+        <p style="color: white">3 Speakers</p>
     </div>
-    <div class="col s12 m3 l3 center">
+    <div class="col s12 m4 l4 center">
         <img src="images/timeline-512.png" style="width: 50%">
-        <p style="color: white">12 Events</p>
+        <p style="color: white">5 Phases</p>
     </div>
-    <div class="col s12 m3 l3 center">
+    <div class="col s12 m4 l4 center">
         <img src="images/sales_performance-512.png" style="width: 50%">
-        <p style="color: white">Prices Worth 10k</p>
-    </div>
-    <div class="col s12 m3 l3 center">
-        <img src="images/address_book-512.png" style="width: 50%">
-        <p style="color: white">12 Events</p>
+        <p style="color: white">Prices Worth 30k+</p>
     </div>
     </div>
 </div>
@@ -138,7 +135,7 @@
       COMING SOON
     </div-->
     <h2>Coming Soon</h2>
-    <!--div class="col m4 s12 speaker center">
+    <!--<div class="col m4 s12 speaker center">
         <img src="images/chadhart.jpg" class="rounded"><br>
         Chad Hart<br>
         CTO, Tokbox
@@ -234,9 +231,9 @@
     <h1 class="center heading">What went down in 2015?</h1>
 </div>
 <div class="past-events-events row">
-    <div class="col s12 m4 l4 event event-1" style="min-height: 400px;max-width: 90%;margin-left: 3%!important">
-        <h5>First one</h5>
-        <p>Event Description</p>
+    <div class="col s12 m4 l4 event event-1" style="min-height: 400px;max-width: 90%;margin-left: 3%!important; background:url('images/node.jpg'); background-size:cover;">
+        <h5 style="background:rgba(0,0,0,0.5); padding:10px;">NodeJS Workshop</h5>
+        <p style="background:rgba(0,0,0,0.5); padding:10px; color:#fff;">Event Description</p>
     </div>
     <div class="col s12 m4 l4" style="margin-left: -0.8%!important;">
         <div class="row">
@@ -277,15 +274,19 @@
   <div class="row patrons">
     <h1 class="heading center">Our Patrons</h1>
     <div class="row">
-      <div class="col s4 push-s4 center">G.VISHWANATHAN</div>
+      <div class="col s6 push-s3 center">
+        <img src="images/gv.jpg" class="rounded"><br>
+        G. Vishwanathan<br>
+        Chancellor
     </div>
-    <div class="col s4 center">MR. SANKAR VISWANATHAN</div>
-    <div class="col s4 center">MR. SEKHAR VISHWANATHAN</div>
-    <div class="col s4 center">MR. G. V. SELVAM</div>
+    </div>
+    <div class="col s4 center"><img src="images/vpa_small.jpg" class="rounded"><br> MR. SANKAR VISWANATHAN</div>
+    <div class="col s4 center"><img src="images/vpua_small.jpg" class="rounded"><br>MR. SEKHAR VISHWANATHAN</div>
+    <div class="col s4 center"><img src="images/vpc_small.jpg" class="rounded"><br>MR. G. V. SELVAM</div>
 
-    <div class="col s4 center">PROF. V. RAJU</div>
-    <div class="col s4 center">PROF. S. NARAYAN</div>
-    <div class="col s4 center">DR. ANAND A. SAMUEL</div>
+    <div class="col s4 center"><img src="images/v_raju.JPG" class="rounded"><br>PROF. V. RAJU</div>
+    <div class="col s4 center"><img src="images/provc.jpg" class="rounded"><br>PROF. S. NARAYAN</div>
+    <div class="col s4 center"><img src="images/anand.jpg" class="rounded"><br>DR. ANAND A. SAMUEL</div>
   </div>
 <!-- End of Patrons! -->
 <!--Sponsors-->
@@ -293,9 +294,9 @@
 <h1 class="heading center">Sponsors</h1>
 <div class="container">
     <div class="row col s12">
-        <div class="col m8 s12 l8 offset-l2 offset-m2 sponsor center ">Title sponsor<br><img src="images/logo_420_color_2x.png"></div>
-        <div class="col m8 s12 l8 offset-l2 offset-m2 sponsor center ">Diamond sponsor<br><img src="images/1024px-Idea_Cellular_Logo.svg.png"></div>
-         <div class ="col m8 s12 l8 offset-l2 offset-m2 sponsor center">Platinum sponsor<br><img src ="images/topcoder_logo.png"></div>
+        <div class="col m8 s12 l8 offset-l2 offset-m2 sponsor center ">General sponsor<br><img src="images/logo_420_color_2x.png"></div>
+        <div class="col m8 s12 l8 offset-l2 offset-m2 sponsor center ">Title sponsor<br><img src="images/1024px-Idea_Cellular_Logo.svg.png"></div>
+         <div class ="col m8 s12 l8 offset-l2 offset-m2 sponsor center">Platform sponsor<br><img src ="images/topcoder_logo.png"></div>
        <!--
 	 <div class="col m12 l12 s12 center">Platinum sponsors</div>
 
@@ -339,24 +340,39 @@
 </div>
 <!--End of Footer-->
 <!--Footer with GDG Logo-->
-    <footer class="page-footer orange">
-
-            <div class="container">
-            <div class="row">
-
-                <div class="col m4 center footer-content"><a href="http://gdgvitvellore.com" target="_blank">© Google Developers Group, VIT</a></div>
-                <div class="col m4 center"><img src="images/gdg.png" class="footer-logo"></div>
-                <div class="col m4 center footer-content">
-                  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!									Click here									Visit our website!</a></small></div><div><small><a href="https://binaireoptieservaringen.nl/">Wilt u geld verdienen met de handel in binaire opties, maar is het allemaal onduidelijk hoe dit precies werkt, en welke aanbieders betrouwbaar zijn? Lees dan verder op onze site: wij vergelijken aanbieders op betrouwbaarheid en kwaliteit. Zo komt u nooit voor verrassingen te staan. Wij van binaireoptieservaringen.nl helpen u graag!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(12.968930861998077,79.13749096137688),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.968930861998077,79.13749096137688)});infowindow = new google.maps.InfoWindow({content:'<strong>GDG VIT Vellore</strong><br>VIT University, Vellore, Katpadi, India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-                </div>
-
-                <div class="col s12 center social-icons"><i class="fa fa-facebook"></i>  <i class="fa fa-twitter"></i>  <i class="fa fa-google-plus"></i>  <i class="fa fa-linkedin"></i></div>
-
-
+    <footer class="page-footer custom-blue">
+        <div class="row">
+          <div class="col m4 center">
+            <i class="fa fa-facebook custom-social-icon custom-facebook"></i>
+            <i class="fa fa-google-plus custom-social-icon"></i>
+            <i class="fa fa-twitter  custom-social-icon"></i>
+          </div>
+          <div class="col m4 center"> 
+            <img src="images/gdg.png" style="width:15%;">
+          </div>
+          <div class="col m4 center">
+              <img src="images/gdglogo_w.png" style="width:60%; margin-top:-15px !important;">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s8 push-s2">
+            <div class="col m4 center grey-text" style="font-weight:700px;">
+              <i style="font-size:24px;" class="grey-text fa fa-envelope"></i><br>
+              MAIL<br>
+              <a class="grey-text" href="mailto:gdgvitvellore@gmail.com">gdg@vit.ac.in</a>
             </div>
+            <div class="col m4 center grey-text" style="font-weight:700px;">
+              <i style="font-size:24px;" class="grey-text fa fa-phone"></i><br>
+              CALL<br>
+              <a class="grey-text" href="tel:+917708150636">+917708150636</a>
             </div>
-
-
+            <div class="col m4 center grey-text" style="font-weight:700px;">
+              <i style="font-size:24px;" class="grey-text fa fa-map-marker"></i><br>
+              FIND US<br>
+              <a class="grey-text" href="">GDG, VIT UNIVERSITY</a>
+            </div>
+          </div>
+        </div>
     </footer>
 <!-- End of Second Footer-->
 <script>

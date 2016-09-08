@@ -17,3 +17,15 @@
 
     }
 }
+
+.custom-social-icon{
+    background: #a0a0a0;
+    color: #0a0a0a;
+    padding: 10px;
+    padding-left: 10px; padding-right: 10px;
+    border-radius: 100%;
+}
+
+.custom-facebook{
+    padding-left: 13px; padding-right: 13px;
+}

@@ -105,11 +105,11 @@ footer{
 }
 footer a{
     color: #fff;
-    border-bottom: 0.5px solid #fff; transition: all 0.5s;
+    border-bottom: 0px solid #fff; transition: all 0.5s;
 }
 
 footer a:hover{
-    border-bottom: 2px solid #fff; transition: all 0.02s;
+    border-bottom: 1px solid #fff; transition: all 0.02s;
 }
 
 .social-icons{
@@ -159,3 +159,10 @@ nav{
     }
 }
 
+.patrons img{
+    width: 50%; border-radius: 50%; padding: 20px;
+}
+
+.custom-blue{
+    background: rgb(23,22,40) !important;
+}
