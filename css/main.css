@@ -139,6 +139,12 @@ footer a:hover{
     max-width: 29%;
 }
 
+@media(max-width: 600px){
+    .custom-m4{
+        min-width: 100%;
+    }
+}
+
 nav{
     position: absolute; top: 0; left: 0; width: 100%; z-index: 1; box-shadow: 0 0 0 0 !important;
 }
