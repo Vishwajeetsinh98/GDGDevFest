@@ -112,6 +112,7 @@ footer{
 footer a{
     color: #fff;
     border-bottom: 0px solid #fff; transition: all 0.5s;
+    font-weight: 700;
 }
 
 footer a:hover{

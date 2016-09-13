@@ -43,6 +43,12 @@
     font-size: 20px; padding: 0; top:15px; left: -10px !important;
 }
 
+@media(max-width: 600px){
+    .where-content{
+        text-align: center;
+    }
+}
+
 .contact{
     border-top:1px solid rgb(239,150,12); padding-top: 60px;
 }
