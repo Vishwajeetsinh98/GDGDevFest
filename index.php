@@ -48,8 +48,8 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
-// Perform queries 
-mysqli_query($con,"INSERT INTO subscribers (email) 
+// Perform queries
+mysqli_query($con,"INSERT INTO subscribers (email)
 VALUES ('$email')");
 
 mysqli_close($con);
@@ -131,7 +131,7 @@ else{
                 </div>
                 <div class="center"><input type="submit" value="Send" class="btn waves-effect waves-light custom-yellow-background"><i class=""></i></div>
                 </form>
- 
+
             </div>
             <div class="col m6 push-m3 terms">
                 <p>We believe that spreading knowledge should not come at a cost, so all our events are free. For DevFest’16, we will be screening participants after the online registration.<br><br>We plan on making the event public so that we can attract developers from around Bangalore and Chennai regions.</p>
@@ -143,15 +143,15 @@ else{
 
 <div class="info-icons row">
     <div class="container">
-    <div class="col s12 m4 l4 center">
+    <div class="col s4 m4 l4 center">
         <img src="images/collaboration-512.png" style="width: 50%">
         <p style="color: white">3 Speakers</p>
     </div>
-    <div class="col s12 m4 l4 center">
+    <div class="col s4 m4 l4 center">
         <img src="images/timeline-512.png" style="width: 50%">
         <p style="color: white">5 Phases</p>
     </div>
-    <div class="col s12 m4 l4 center">
+    <div class="col s4 m4 l4 center">
         <img src="images/sales_performance-512.png" style="width: 50%">
         <p style="color: white">Prices Worth 30k+</p>
     </div>
@@ -215,14 +215,14 @@ else{
                         </ol>
 
                         <span class="filling-line" aria-hidden="true"></span>
-                    </div> 
+                    </div>
                 </div>
 
                 <ul class="cd-timeline-navigation">
                     <li><a href="#0" class="prev inactive">Prev</a></li>
                     <li><a href="#0" class="next">Next</a></li>
                 </ul> .cd-timeline-navigation
-            </div> 
+            </div>
 
             <div class="events-content">
 		<ol>
@@ -252,7 +252,7 @@ else{
     			</li>
 
     		</ol>
-                
+
         </section>
     </div>    <script src="js/scroll.js"></script> -->
 <!--End of Agenda-->
@@ -365,7 +365,7 @@ else{
             <a href="https://plus.google.com/+gdgvitvellore" target="_blank"><i class="fa fa-google-plus custom-social-icon"></i></a>
             <!-- <i class="fa fa-twitter  custom-social-icon"></i> -->
           </div>
-          <div class="col m4 s12 center"> 
+          <div class="col m4 s12 center">
             <img src="images/gdg.png" style="width:15%;">
           </div>
           <div class="col m4 s12 center">
