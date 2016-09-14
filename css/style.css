@@ -766,3 +766,9 @@ table {
   color: white;
   font-size: 25px;
 }
+@media only screen and (min-device-width: 1350px) and (max-device-width: 1400px){
+  .contact p{
+    margin-left: -38%;
+    width: 90%;
+  }
+}
